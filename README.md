@@ -15,10 +15,9 @@ A bingo game themed around the Nancy Grace Roman Space Telescope Galactic Bulge 
 
 ## Running the Streamlit App
 
-Activate your environment and launch from this directory:
+Run the following to launch the streamlit app in your local browser:
 
 ```bash
-conda activate astro
 streamlit run app.py
 ```
 
