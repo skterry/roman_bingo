@@ -13,7 +13,15 @@ A bingo game themed around the Nancy Grace Roman Space Telescope Galactic Bulge 
 | `layout_7f_3.outline.gc.lbad` | Galactic center region outline coordinates |
 | `RST_icon.png` | Browser tab icon used by the Streamlit app |
 
-## Running the Streamlit App
+## Playing Roman Bingo Online
+
+The game is hosted online and can be played at the following URL:
+
+```bash
+https://romanbingo.streamlit.app/
+```
+
+## Running the Streamlit App Locally
 
 Run the following to launch the streamlit app in your local browser:
 
@@ -28,7 +36,7 @@ The app has two tabs:
 
 ## Standalone Scripts
 
-Generate a bingo sheet without Streamlit (outputs `bingo_sheet.pdf`):
+Generate a bingo sheet without Streamlit (file saved as `bingo_sheet.pdf`):
 
 ```bash
 python roman_bingo.py
