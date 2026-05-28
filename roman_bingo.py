@@ -59,7 +59,7 @@ if plotoutlines==1:
     fields = []
     #Ugh - numpy doesn't understand why a blank line might mean something
     #Solution by Martin Evans https://stackoverflow.com/questions/36569827/read-txt-data-separated-by-empty-lines-as-several-numpy-arrays
-    with open('%s.outline.lbad' % (layout)) as fp:
+    with open('ref_files/%s.outline.lbad' % (layout)) as fp:
         for k, g in groupby(fp, lambda x: x.startswith(' ')):
             if not k:
                 fields.append(np.array([[float(x) for x in d.split()] for d in g if len(d.strip())]))
@@ -188,7 +188,7 @@ if plotoutlines==1:
 #Plot the GC outline
 if plotoutlines==1:
     gcfields = []
-    with open('%s.outline.gc.lbad' % (layout)) as fp:
+    with open('ref_files/%s.outline.gc.lbad' % (layout)) as fp:
         for k, g in groupby(fp, lambda x: x.startswith(' ')):
             if not k:
                 gcfields.append(np.array([[float(x) for x in d.split()] for d in g if len(d.strip())]))

@@ -50,7 +50,7 @@ def generate_bingo_sheet():
 
         layout = 'layout_7f_3'
         fields = []
-        with open(os.path.join(SCRIPT_DIR, f'{layout}.outline.lbad')) as fp:
+        with open(os.path.join(SCRIPT_DIR, 'ref_files', f'{layout}.outline.lbad')) as fp:
             for k, g in groupby(fp, lambda x: x.startswith(' ')):
                 if not k:
                     fields.append(
@@ -126,7 +126,7 @@ def generate_bingo_sheet():
             draw_column(all_centers[letter], offsets[letter], selected)
 
         gcfields = []
-        with open(os.path.join(SCRIPT_DIR, f'{layout}.outline.gc.lbad')) as fp:
+        with open(os.path.join(SCRIPT_DIR, 'ref_files', f'{layout}.outline.gc.lbad')) as fp:
             for k, g in groupby(fp, lambda x: x.startswith(' ')):
                 if not k:
                     gcfields.append(
@@ -160,7 +160,7 @@ def generate_bingo_sheet():
 def main():
     st.set_page_config(
         page_title="Roman Galactic Bulge BINGO",
-        page_icon=os.path.join(SCRIPT_DIR, "RST_icon.png"),
+        page_icon=os.path.join(SCRIPT_DIR, "ref_files", "RST_icon.png"),
         layout="wide",
     )
     st.title("Roman Galactic Bulge BINGO")
