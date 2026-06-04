@@ -1,5 +1,9 @@
 # Roman Galactic Bulge BINGO
 
+<a href="https://romanbingo.streamlit.app//" target="_blank">
+  <img src="https://img.shields.io/badge/Play%20Now-brightgreen?style=for-the-badge" alt="Play Now!"/>
+</a>
+
 A bingo game themed around the Nancy Grace Roman Space Telescope Galactic Bulge Time Domain Survey. Each column of the bingo card (**R**, **O**, **M**, **A**, **N**) corresponds to one of five survey fields, and each number represents a detector chip within that field (1–90 total across all five fields). The 6th Galactic Center (GC) field is ignored in this game.
 
 ## Project Structure
@@ -36,10 +40,16 @@ The app has two tabs:
 
 ## Standalone Scripts
 
-Generate a bingo sheet without Streamlit (file saved as `bingo_sheet.pdf`):
+Generate a single bingo sheet without Streamlit (file is saved as `bingo_sheet.pdf`):
 
 ```bash
 python roman_bingo.py
+```
+
+Or generate 10 bingo sheets at once (multi-page file is saved as `bingo_sheets.pdf`):
+
+```bash
+python roman_bingo.py -n 10
 ```
 
 Run the terminal-based number caller:
@@ -59,7 +69,7 @@ Core packages:
 - `scipy`
 - `astropy`
 
-Install Streamlit if not already present:
+Install Streamlit if running in browser:
 
 ```bash
 pip install streamlit
