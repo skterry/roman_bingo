@@ -183,7 +183,7 @@ with PdfPages(out_file) as pdf:
         ax2.text(0.45, -0.1, 'Galactic Bulge BINGO', ha='center', va='center',
                  fontsize=40, fontweight='bold', zorder=1001)
         ax2.text(-0.9, -2.2, 'Created by: S. K. Terry', ha='right', va='bottom',
-                 fontsize=9, alpha=0.1, zorder=1001)
+                 fontsize=9, alpha=0.3, zorder=1001)
 
         pdf.savefig(fig)
         plt.close(fig)
