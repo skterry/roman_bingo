@@ -2,7 +2,7 @@
 
 <p>
   Hosted on Streamlit
-  <img src="ref_files/streamlit_icon.png" alt="Streamlit" height="22" align="middle"/>
+  <img src="ref_files/streamlit_icon.png" alt="Streamlit" height="22" align="top"/>
 </p>
 
 <a href="https://romanbingo.streamlit.app//" target="_blank">
