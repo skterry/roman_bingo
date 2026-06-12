@@ -1,9 +1,12 @@
 # Roman Galactic Bulge BINGO
 
-<a href="https://romanbingo.streamlit.app//" target="_blank">
+<p>
+  Hosted on Streamlit
   <img src="ref_files/streamlit_icon.png" alt="Streamlit" height="28" align="middle"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Play%20Now-brightgreen?style=for-the-badge" alt="Play Now!" align="middle"/>
+</p>
+
+<a href="https://romanbingo.streamlit.app//" target="_blank">
+  <img src="https://img.shields.io/badge/Play%20Now-brightgreen?style=for-the-badge" alt="Play Now!"/>
 </a>
 
 A bingo game themed around the Nancy Grace Roman Space Telescope Galactic Bulge Time Domain Survey. Each column of the bingo card (**R**, **O**, **M**, **A**, **N**) corresponds to one of five survey fields, and each number represents a detector chip within that field (1–90 total across all five fields). The 6th Galactic Center (GC) field is ignored in this game.
