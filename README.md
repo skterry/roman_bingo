@@ -3,7 +3,7 @@
 <p>
   Hosted on Streamlit
   <a href="https://streamlit.io/" target="_blank">
-    <img src="icon/streamlit_icon.png" alt="Streamlit" height="22" align="top"/>
+    <img src="ref_files/streamlit_icon.png" alt="Streamlit" height="22" align="top"/>
   </a>
 </p>
 
